@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Rubik Burned', system-ui;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(137, 221, 34);
+    color: black;
+    font-size: 50px;
+    text-shadow: -1px -1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
+}
+
+.menu ul {
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu li {
+    flex-grow: 1; /* Allows each li to grow evenly */
+    text-align: center; /* Center text inside li */
+}
+
+.menu li a {
+    display: block; 
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+    width: 100%; 
+    height: 100%; 
+}
+
+.menu li a:hover {
+    background-color: white;
+    color: black;
+}
+
+p {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: rgb(246, 246, 109);
+    padding-left: 1.5%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: 10px dotted red;
+    font-size: 20px;
+    text-align: center;
+}
+
+.audio_line {
+    text-align: center;
+    background-color: black;
+    padding: 1.5%;
+    color: rgb(178, 51, 51);
+}
+
+.audio_line_2 {
+    padding-bottom: 1%;
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 25px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(137, 221, 34);
+    color: black;
+    font-size: 40px; 
+    font-family: 'Rubik Burned', system-ui;
+    padding: 30px 0;
+    text-shadow: -1px -1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
+}
+
+.quote {
+    font-size: 27px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding: 30px 20px;
+    font-style: italic;
+}
+
+h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(178, 51, 51);
+    color: black;
+    font-size: 30px; 
+    font-family: 'Rubik Burned', system-ui;
+    padding: 30px 0;
+    text-shadow: -1px -1px 0 #fff, -1px -1px 0 #fff, -1px 1px 0 #fff, -1px -1px 0 #fff;
+}
+
+.intro {
+    width: 100%;
+}
+
+#jokerInfo {
+    font-family: 'Bebas Neue', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgb(246, 246, 109);
+}
+
+#jokerInfo, #jokerInfo th, #jokerInfo td {
+    border: 5px dashed rgb(137, 221, 34);
+}
+
+#jokerInfo th, #jokerInfo td {
+    padding: 10px;
+    text-align: left;
+}
+
+#jokerInfo th {
+    background-color: rgb(246, 246, 109);
+}
+
+#jokerInfo td:hover, #jokerInfo th:hover {
+    background-color: black;
+    color: white;
+}
+
+ul{ font-size: 27px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    padding: 30px 20px;}
